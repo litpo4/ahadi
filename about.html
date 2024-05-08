@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AHADI</title>
+    <!-- Link CSS file -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+<body>
+    <header class="header">
+        <!-- Logo -->
+        <img class="logo-image" src="Ahadi.jpg">
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <!-- Menu -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="middle-about">
+            <p>
+                ahadi outsource agency
+            </p>
+        </div>
+        <div class="middle-flex">
+            <div>
+                <img src="Ahadi.jpg">
+            </div>
+            <div class="paragraph">
+                <p>
+                    Welcome to Ahadi outsource agency LTD. We specialize in 
+                    selling plots, land, and properties management in Kenya. 
+                    Quality and safety are the backbone of our values. We are 
+                    committed to providing the best services to our customers.
+                    invest in Ahadi real estate today, 50 by 100 (1/8 acre) value 
+                    added plots for sale with ready title deed and in a fast growing 
+                    neighbourhood plots are located 'distance' off 'area from the 
+                    nearest tarmac road' going for only 'price in ksh' with flexible 
+                    instalment plan (duration) starting with (first installment cost) 
+                    'area' is one of the fastest growing satellite towns within the 
+                    nairobi metropolitan area and is proving a haven in the provision 
+                    of homes for many city dwellers as well as those who are planning
+                     to retire and leave the city environs. 'area' is only 'time taken 
+                     from the nearest city ' from Nairobi CBD
+                </p>
+            </div>
+        </div>
+        <div class="accordion-full">
+            <button class="accordion">WHAT IS A PARENT DOCUMENT FOR LAND?</button>
+            <div class="panel">
+                <p>
+                    This is the document that traces the origin of property as well as 
+                    all other relevant conveyance deeds. It is the main document that 
+                    determines ownership of a property. Since tracing ownership should 
+                    always begin with scrutiny of the earliest document recorded, where 
+                    such documents are not available, certified copies have to be obtained 
+                    from the registering authorities. These documents are called mother 
+                    or parent documents
+                </p>
+            </div>
+    
+            <button class="accordion">HOW LONG DOES TRANSFER OF TITLE DEEDS TAKE IN KENYA?</button>
+            <div class="panel">
+                <p> 
+                    They take between 14 and 21 days.
+                </p>
+            </div>
+    
+            <button class="accordion">
+                IS BUYING LAND A GOOD INVESTMENT?
+            </button>
+            <div class="panel">
+                <p>Most of the time, buying land is a good investment. One, however, 
+                    needs to invest in due diligence, to avoid getting conned.
+                </p>
+            </div>
+            <button class="accordion">
+                What Due Diligence Should I Undertake?
+            </button>
+            <div class="panel">
+                <p> 
+                    It is imperative to conduct a land search at the land registry 
+                    in the location where you want to buy land; the point here is to 
+                    confirm the ownership of the land you intend to buy.
+                </p>
+            </div>
+            <button class="accordion">
+                What Happens on Completion? Handover the Requisite Land Transfer 
+                Documents and Payment of Full Purchase Price?
+            </button>
+            <div class="panel">
+                <p> 
+                    On Completion, the advocate of the Seller shall deliver to the advocate 
+                    of the Buyer the original title, transfer document, lands rates clearance 
+                    certificate, stamp duty valuation form, land rent clearance certificate, 
+                    consents
+                </p>
+            </div>
+            <button class="accordion">
+                Can we buy as a group/chama or a company?
+            </button>
+            <div class="panel">
+                <p> 
+                    Yes you can. For a group/chama, during documentation, you will select 
+                    two trustees who can be your representatives and we will also require 
+                    your registration certificate. For a company, sealed documentation for 
+                    the company and directors will be required.
+                </p>
+            </div>
+            <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+                
+                for (i = 0; i < acc.length; i++) {
+                  acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                      panel.style.display = "none";
+                    } else {
+                      panel.style.display = "block";
+                    }
+                  });
+                }
+            </script>
+                
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-quick-links">
+            <p>
+                quick links
+            </p>
+            <a href="index.html">
+                home
+            </a>
+            <a href="#">
+                about
+            </a>
+            <a href="contact.html">
+                contact us
+            </a>
+        </div>
+        <div class="footer-contact-us">
+            <p class="foot-contact">
+                contact us
+            </p>
+            <div class="email-icon">
+                <i class="material-icons" style=" font-size: 40px;" >email</i>
+                <a style="text-decoration: none;" href="mailto:ahadiagencyltd18a@gmail.com" >
+                    <p>
+                         ahadiagencyltd@gmail.com
+                    </p>
+                </a>
+            </div>
+            <div class="call-icon">
+                <i class="material-icons" style="font-size: 40px; " >call</i>
+                <a style="text-decoration: none;" href="tel:+254722747294">
+                    <p>
+                         (+254) 722 747 294
+                    </p>
+                </a>
+            </div>
+            
+        </div>
+    </footer>
+</body>
+</html>
